@@ -1,6 +1,6 @@
 ---
 title: Decirlo sin liarla
-description: Asertividad: el Mensaje-Yo, escuchar y responder sin insultar 🗣️
+description: "Asertividad: el Mensaje-Yo, escuchar y responder sin insultar 🗣️"
 ---
 
 <p><small>Asertividad: el Mensaje-Yo, escuchar y responder sin insultar 🗣️</small></p>
