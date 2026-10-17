@@ -53,7 +53,17 @@ const tutoriaItems = [
       { slug: '04-lineas-rojas/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
     ],
   },
-  // 5 · 🔓 El insulto no es poder (en preparación)
+  {
+    label: '5 · 🔓 El insulto no es poder',
+    collapsed: true,
+    items: [
+      { slug: '05-el-insulto-no-es-poder', label: 'Índice' },
+      { slug: '05-el-insulto-no-es-poder/01-por-que-busca-reaccion', label: '1 · Por qué busca tu reacción' },
+      { slug: '05-el-insulto-no-es-poder/02-como-no-dar-la-reaccion', label: '2 · Cómo no dar la reacción' },
+      { slug: '05-el-insulto-no-es-poder/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  // 6 · 🗣️ Decirlo sin liarla (en preparación)
   // 6 · 🗣️ Decirlo sin liarla (en preparación)
   // 7 · ⚖️ Conflicto: modo sabio (en preparación)
   // 8 · 🎲 Banco de juegos (en preparación)
