@@ -140,8 +140,9 @@ description: Bajada corta con emoji 😌
 
 ## 💡 Lo que hay que saber
 
-Explicación breve (párrafos cortos, analogías 16-17, tablas, muchas
-emojis). Máximo ~1 pantalla: el resto lo dicen los ejercicios.
+Explicación RICA: muchas explicaciones, muchos ejemplos reales
+16-17 (insta, WhatsApp, primer curro), tablas, callouts y
+MUCHOS iconos. Varios bloques ## temáticos con nombre expresivo.
 ![Descripción de la imagen](/TutoriaFPB/img/NN-nombre/xx.svg)
 
 <div class="ficha-cabecera">
@@ -169,7 +170,7 @@ Respuestas siempre en <details><summary>🔄 Soluciones</summary>…</details>
 2. **Ejercicios siempre rellenables:** completar, emparejar, decidir, escribir; usa `<div class="ejercicio">` para enmarcar cada uno y `<span class="linea-respuesta">` cuando haga falta una línea en blanco.
 3. **Soluciones en `<details>`** (web) y visibles al final de la página (DOCX).
 4. **1 imagen Excalidraw por ficha** en `public/img/NN-nombre/xx.svg` (+ `.png` de respaldo, fuente `.excalidraw` en `public/img/fuentes/`), insertada con `<div class="ficha-img">`.
-5. **Prosa mínima:** si una explicación supera una pantalla, se parte en dos fichas.
+5. **Explicación rica:** la ficha se desarrolla en varios bloques `##` temáticos con nombre expresivo (ej.: "Los tres personajes del espejo", "La autocharla", "El making-of vs el tráiler"). Cada bloque = explicación + ejemplos de vida real + iconos por todas partes. Puede ocupar 2-3 A4 al imprimir; lo inamovible es que lleve ejercicios rellenables.
 
 ### 🎨 Sistema de iconos (obligatorio — muchos iconos)
 
