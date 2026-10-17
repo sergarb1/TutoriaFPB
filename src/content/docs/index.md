@@ -93,6 +93,15 @@ description: Fichas de aula de tutoría para FPB — para Comercio, Informática
 
 <div class="unit-card">
   <div class="unit-card-header">
+    <span class="num">8 · Dinámicas</span>
+  </div>
+  <a href="/TutoriaFPB/08-banco-de-juegos" class="title-link">🎲 Banco de juegos</a>
+  <p class="desc">Cohesión y calma: 10 dinámicas con su ficha (objetivo, tiempo, material, pasos, inclusión) + el kit del profe.</p>
+  <a href="/TutoriaFPB/08-banco-de-juegos" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
+<div class="unit-card">
+  <div class="unit-card-header">
     <span class="num">9 · Kudo Cards</span>
   </div>
   <a href="/TutoriaFPB/09-kudo-cards" class="title-link">🎁 Kudo Cards</a>
@@ -102,7 +111,7 @@ description: Fichas de aula de tutoría para FPB — para Comercio, Informática
 
 </div>
 
-> **En camino** (se van publicando poco a poco): 🎲 Banco de juegos · 🎙️ Tu sesión en 50 minutos · 📆 Turnos del aula.
+> **En camino** (se van publicando poco a poco): 🎙️ Tu sesión en 50 minutos · 📆 Turnos del aula.
 
 ## 🧑‍🤝‍🧑 Los protagonistas
 

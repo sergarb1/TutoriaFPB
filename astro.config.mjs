@@ -83,7 +83,16 @@ const tutoriaItems = [
       { slug: '07-conflicto-modo-sabio/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
     ],
   },
-  // 8 · 🎲 Banco de juegos (en preparación)
+  {
+    label: '8 · 🎲 Banco de juegos',
+    collapsed: true,
+    items: [
+      { slug: '08-banco-de-juegos', label: 'Índice' },
+      { slug: '08-banco-de-juegos/01-cohesion', label: '1 · Cohesión: un grupo que funciona' },
+      { slug: '08-banco-de-juegos/02-calma', label: '2 · Calma: bajar la tensión' },
+      { slug: '08-banco-de-juegos/03-kit-del-profe', label: '3 · 🎮 Kit del profe' },
+    ],
+  },
   {
     label: '9 · 🎁 Kudo Cards',
     collapsed: true,
