@@ -1,11 +1,11 @@
 ---
-title: 1 — Qué es la confianza real
-description: No es creerse mejor, es atreverte igual 😌
+title: 1 — ¿Qué es la confianza real?
+description: No es creerse mejor, es atreverte igual 🌱
 ---
 
-<p><small>No es creerse mejor, es atreverte igual 😌</small></p>
+<p><small>No es creerse mejor, es atreverte igual 🌱</small></p>
 
-> 🗺️ **Estás en:** 🤝 **Confianza real** → 1 · Qué es la confianza real
+> 🗺️ **Estás en:** 🤝 **Confianza real** → 1 · ¿Qué es la confianza real?
 
 ---
 
@@ -15,67 +15,105 @@ description: No es creerse mejor, es atreverte igual 😌
 
 ---
 
-## 🎭 Los tres personajes del espejo
+## 💡 Lo que hay que saber
 
-Seguro que conoces a los tres. Fíjate en la diferencia:
+La confianza real **no elimina el miedo**: hace las cosas *con* miedo. Quien nunca tiene miedo no es valiente: es que no le importa. A ti te importa, y eso es de sabios.
 
-| Tipo | Qué se dice por dentro | Qué hace | Resultado |
-|---|---|---|---|
-| **Sin confianza** | "No sirvo para nada, todos lo harán mejor" | No lo intenta | No aprueba… y además se castiga |
-| **Creído** | "Yo me lo sé todo, estos no son nadie" | No escucha ni pide ayuda | Fracasa y culpa a los demás |
-| **Confiado de verdad** | "Esto se me da regular, lo practico y pregunto" | Intente, pregunta, mejora | Aprueba y se lo cree |
+En el espejo hay tres personajes. Fíjate en cuál eres hoy:
 
-La confianza real **no elimina el miedo**: hace las cosas *con* miedo. Quien no tiene miedo nunca no es valiente: es que no le importa. Y a ti te importa, que es de sabios.
+<div class="ficha-img">
+  <img src="/TutoriaFPB/img/01-confianza-real/01-personajes-espejo.svg" alt="Diagrama con los tres personajes del espejo: sin confianza («no sirvo para nada», no lo intenta), creído («yo me lo sé todo», no escucha) y confiado de verdad («esto se me da regular», lo practica y pregunta). La meta es saber tus luces y tus sombras y atreverte igual." width="980" height="450" loading="lazy">
+  <figcaption>🪞 Los tres personajes del espejo — el de la derecha es la meta</figcaption>
+</div>
 
----
+Y luego está la **autocharla**: ese comentario que te haces a ti mismo todo el día. Cuando es un jefe tóxico, sabotea. El truco es convertir **sentencias** en **problemas**:
 
-## 🗣️ La autocharla: la voz que te sabotea
+- ❌ "Soy tonto." (sentencia de por vida, no se puede arreglar)
+- ✅ "Esto **no me ha salido** y lo practico." (problema de esta tarde, se arregla)
 
-Todos tenemos un comentario interno. El problema es cuando ese comentario es un jefe tóxico:
-
-- "Esto lo hará todo el mundo mejor."
-- "Si pregunto, van a pensar que soy tonto."
-- "No presento el trabajo, así me quedo tranquilo."
-
-Esa voz **no predice el futuro**: repite costumbre. Y las costumbres se cambian. Truco de manual:
-
-> ❌ "Soy tonto." → ✅ "Esto **no me ha salido** y lo practico."
-
-Fíjate: el primero es una sentencia de por vida. El segundo es un problema de esta tarde. Y los de esta tarde se arreglan.
+📌 **La regla del feed:** todo lo que ves de los demás es su **tráiler** (lo mejor, editado). Todo lo que sientes de ti es tu **making-of** (errores, nervios, tomas fallidas). Comparar eso es comparar peras con aviones. DANI pasó una semana hundido viendo el "primer día en el curro 💪" de un conocido… olvidando que ese chico llevaba seis meses de currículums y que la foto buena fue la quinta toma.
 
 ---
 
-## 📱 El truco del "making-of" vs el "tráiler"
+<div class="ficha-cabecera">
+  <span class="campo">👤 Nombre:</span>
+  <span class="campo">📅 Fecha:</span>
+  <span class="campo">🏫 Grupo:</span>
+</div>
 
-Te comparas con los demás porque ves su **tráiler**: las fotos buenas, los logros, el curro que presume. Y comparas ese tráiler con tu **making-of**: los errores, los nervios, las dudas de por medio.
+## ✍️ A por ellos
 
-En la tienda lo vemos a diario. **DANI**, nuestro dependiente, pasó una semana entera hundido porque un conocido puso en Instagram "primer día en el curro 💪". DANI olvidó que ese conocido lleva **seis meses** mandando currículums y que las fotos buenas de su primer día fueron la quinta toma.
+<div class="ejercicio">
 
-> 💡 **Regla del feed:** todo lo que ves de otros es su mejor momentánea; todo lo que sientes de ti es el paquete completo. Comparar eso es comparar peras con aviones.
+**1. ✏️ Completa la fórmula:**
+
+> Confianza real = saber mis ______ y mis ______ + ______ aunque tenga ______.
+
+</div>
+
+<div class="ejercicio">
+
+**2. 🎯 Decide: ¿sentencia (❌) o problema (✅)?**
+
+| Frase | ❌/✅ |
+|---|---|
+| "No sirvo para nada" | |
+| "Esto todavía no me sale y lo repaso" | |
+| "Soy un desastre con los inventarios" | |
+| "Lo intento y me sale como me sale" | |
+
+</div>
+
+<div class="ejercicio">
+
+**3. 🎬 Making-of vs tráiler:** escribe **una cosa tuya** del making-of (que no publicarías) y **una cosa del tráiler** de alguien con quien te sueles comparar.
+
+> Mi making-of: <span class="linea-respuesta"></span>
+> Su tráiler: <span class="linea-respuesta"></span>
+
+</div>
+
+<div class="ejercicio">
+
+**4. 🗣️ Tu autocharla:** piensa en la frase que te dices cuando algo no te sale. Escríbela aquí y **reescríbela como problema**:
+
+> Mi frase de siempre: <span class="linea-respuesta"></span>
+> Reescrita, con hechos: <span class="linea-respuesta"></span>
+
+</div>
+
+<div class="ejercicio">
+
+**5. 🎭 En parejas — ¿confianza real o creído?** Decidlo en 30 segundos cada caso:
+
+- Carla no entiende la práctica y pregunta en público a pesar de los nervios. → <span class="linea-respuesta"></span>
+- Óscar dice "esto lo sabe hacer cualquiera" y no revisa su parte del trabajo. → <span class="linea-respuesta"></span>
+- Iván practica en casa la presentación hasta que le sale sin leer. → <span class="linea-respuesta"></span>
+
+</div>
 
 ---
 
-## 🧠 Mini-chequeo
+## 🎭 Mini dinámica: El espejo de los cumplidos 👥 5 min
 
-1. Un compañero presenta un trabajo y sale genial. ¿Es confianza real pensar "yo eso no lo puedo hacer"? ¿Por qué?
-2. ¿Qué frase te dices tú cuando algo no te sale? Escríbela y mira si es sentencia o problema.
-3. ¿Qué es más útil compararte con el tráiler de otros o con tu making-of de hace un mes?
+En parejas, uno dice **un cumplido concreto** de algo que vio hacer bien al otro esta semana ("te quedaste a explicarme X", no "eres crack"). El otro solo dice **"gracias, me lo guardo"** — sin discutirlo, sin quitarle importancia. Luego se cambian.
 
----
-
-## ✅ Resumen en 3 frases
-
-1. La confianza real es saber tus luces y tus sombras y atreverte de todas formas.
-2. La autocharla negativa es costumbre, no profecía, y se cambia poniendo hechos en lugar de sentencias.
-3. Compararte con el "best of" de los demás no es información: es trampa.
+> ♿ **Inclusión:** se empareja por sorteo (papeles iguales), y quien no recuerde nada concreto, puede usar cualquier cosa de esta misma clase.
 
 ---
 
-## 🐛 Vocabulario rápido
+## 🔑 Soluciones y pistas
 
-- **Autoestima:** cómo te valoras a ti mismo, no lo que digan los demás.
-- **Autocharla:** el diálogo interno que tienes contigo mismo cada día.
-- **Zona de confort:** lo que ya sabes hacer sin esfuerzo; la confianza crece justo fuera de ella.
+<details>
+<summary>🔄 Ver soluciones</summary>
+
+1. **Luces, sombras, atreverte, miedo.**
+2. ❌ "No sirvo para nada" · ✅ "Esto todavía no me sale y lo repaso" · ❌ "Soy un desastre con los inventarios" (sentencia) · ✅ "Lo intento y me sale como me sale".
+3. Cada cual la suya. Pistas de making-of: los nervios antes de presentar, el error que corregiste, las horas de práctica. De tráiler: el resultado final sin proceso.
+4. Ejemplo: "Soy tonto" → "Esto no me ha salido y pido ayuda hoy".
+5. **Confiada** · **Creído** (menosprecia y no revisa) · **Confiado de verdad**.
+
+</details>
 
 ---
 
