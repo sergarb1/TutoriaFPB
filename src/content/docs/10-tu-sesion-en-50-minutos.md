@@ -1,6 +1,6 @@
 ---
 title: Tu sesión en 50 minutos
-description: Monta tu propia sesión de tutoría: título, objetivo, dinámica y conclusiones 🎙️
+description: "Monta tu propia sesión de tutoría: título, objetivo, dinámica y conclusiones 🎙️"
 ---
 
 <p><small>Monta tu propia sesión de tutoría: título, objetivo, dinámica y conclusiones 🎙️</small></p>

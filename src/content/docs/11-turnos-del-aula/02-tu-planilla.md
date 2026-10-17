@@ -1,6 +1,6 @@
 ---
 title: 2 — Tu planilla (plantilla)
-description: Plantilla imprimible: lista semanal de turnos + firmas 🖨️
+description: "Plantilla imprimible: lista semanal de turnos + firmas 🖨️"
 ---
 
 <p><small>Plantilla imprimible: lista semanal de turnos + firmas 🖨️</small></p>

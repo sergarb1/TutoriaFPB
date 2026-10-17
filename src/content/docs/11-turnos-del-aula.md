@@ -1,6 +1,6 @@
 ---
 title: Turnos del aula
-description: Lista de responsables diarios: plantilla para imprimir y firmar 📆
+description: "Lista de responsables diarios: plantilla para imprimir y firmar 📆"
 ---
 
 <p><small>Lista de responsables diarios: plantilla para imprimir y firmar 📆</small></p>
