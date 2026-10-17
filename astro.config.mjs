@@ -43,7 +43,16 @@ const tutoriaItems = [
       { slug: '03-modo-equipo/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
     ],
   },
-  // 4 · 🛡️ Líneas rojas (en preparación)
+  {
+    label: '4 · 🛡️ Líneas rojas',
+    collapsed: true,
+    items: [
+      { slug: '04-lineas-rojas', label: 'Índice' },
+      { slug: '04-lineas-rojas/01-respeto-y-limites', label: '1 · Respeto y límites rojas' },
+      { slug: '04-lineas-rojas/02-tipos-y-senales', label: '2 · Tipos, señales y cero red' },
+      { slug: '04-lineas-rojas/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
   // 5 · 🔓 El insulto no es poder (en preparación)
   // 6 · 🗣️ Decirlo sin liarla (en preparación)
   // 7 · ⚖️ Conflicto: modo sabio (en preparación)

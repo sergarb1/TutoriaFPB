@@ -57,6 +57,15 @@ description: Fichas de aula de tutoría para FPB — para Comercio, Informática
 
 <div class="unit-card">
   <div class="unit-card-header">
+    <span class="num">4 · Cero bullying</span>
+  </div>
+  <a href="/TutoriaFPB/04-lineas-rojas" class="title-link">🛡️ Líneas rojas</a>
+  <p class="desc">Broma o bullying: el semáforo del respeto, los 5 tipos de acoso y el pacto de la clase con tus líneas rojas.</p>
+  <a href="/TutoriaFPB/04-lineas-rojas" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
+<div class="unit-card">
+  <div class="unit-card-header">
     <span class="num">9 · Kudo Cards</span>
   </div>
   <a href="/TutoriaFPB/09-kudo-cards" class="title-link">🎁 Kudo Cards</a>
@@ -66,7 +75,7 @@ description: Fichas de aula de tutoría para FPB — para Comercio, Informática
 
 </div>
 
-> **En camino** (se van publicando poco a poco): 🛡️ Líneas rojas · 🔓 El insulto no es poder · 🗣️ Decirlo sin liarla · ⚖️ Conflicto: modo sabio · 🎲 Banco de juegos · 🎙️ Tu sesión en 50 minutos · 📆 Turnos del aula.
+> **En camino** (se van publicando poco a poco): 🔓 El insulto no es poder · 🗣️ Decirlo sin liarla · ⚖️ Conflicto: modo sabio · 🎲 Banco de juegos · 🎙️ Tu sesión en 50 minutos · 📆 Turnos del aula.
 
 ## 🧑‍🤝‍🧑 Los protagonistas
 
