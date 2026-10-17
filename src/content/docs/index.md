@@ -84,6 +84,15 @@ description: Fichas de aula de tutoría para FPB — para Comercio, Informática
 
 <div class="unit-card">
   <div class="unit-card-header">
+    <span class="num">7 · Resolución</span>
+  </div>
+  <a href="/TutoriaFPB/07-conflicto-modo-sabio" class="title-link">⚖️ Conflicto: modo sabio</a>
+  <p class="desc">El iceberg del conflicto, la resolución en 5 pasos, la mediación de 4 turnos y acuerdos con fecha de revisión.</p>
+  <a href="/TutoriaFPB/07-conflicto-modo-sabio" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
+<div class="unit-card">
+  <div class="unit-card-header">
     <span class="num">9 · Kudo Cards</span>
   </div>
   <a href="/TutoriaFPB/09-kudo-cards" class="title-link">🎁 Kudo Cards</a>
@@ -93,7 +102,7 @@ description: Fichas de aula de tutoría para FPB — para Comercio, Informática
 
 </div>
 
-> **En camino** (se van publicando poco a poco): ⚖️ Conflicto: modo sabio · 🎲 Banco de juegos · 🎙️ Tu sesión en 50 minutos · 📆 Turnos del aula.
+> **En camino** (se van publicando poco a poco): 🎲 Banco de juegos · 🎙️ Tu sesión en 50 minutos · 📆 Turnos del aula.
 
 ## 🧑‍🤝‍🧑 Los protagonistas
 

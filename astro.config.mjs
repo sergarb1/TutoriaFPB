@@ -73,7 +73,16 @@ const tutoriaItems = [
       { slug: '06-decirlo-sin-liarla/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
     ],
   },
-  // 7 · ⚖️ Conflicto: modo sabio (en preparación)
+  {
+    label: '7 · ⚖️ Conflicto: modo sabio',
+    collapsed: true,
+    items: [
+      { slug: '07-conflicto-modo-sabio', label: 'Índice' },
+      { slug: '07-conflicto-modo-sabio/01-que-se-ve-y-que-no', label: '1 · Lo que se ve y lo que no' },
+      { slug: '07-conflicto-modo-sabio/02-resolucion-paso-a-paso', label: '2 · Resolución paso a paso' },
+      { slug: '07-conflicto-modo-sabio/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
   // 8 · 🎲 Banco de juegos (en preparación)
   {
     label: '9 · 🎁 Kudo Cards',
