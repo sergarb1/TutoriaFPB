@@ -1,6 +1,6 @@
 ---
 title: 1 — Respeto y límites rojas
-description: El semáforo: broma, falta de respeto y bullying no son lo mismo 🚦
+description: "El semáforo: broma, falta de respeto y bullying no son lo mismo 🚦"
 ---
 
 <p><small>El semáforo: broma, falta de respeto y bullying no son lo mismo 🚦</small></p>
