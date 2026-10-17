@@ -75,6 +75,15 @@ description: Fichas de aula de tutoría para FPB — para Comercio, Informática
 
 <div class="unit-card">
   <div class="unit-card-header">
+    <span class="num">6 · Asertividad</span>
+  </div>
+  <a href="/TutoriaFPB/06-decirlo-sin-liarla" class="title-link">🗣️ Decirlo sin liarla</a>
+  <p class="desc">Callas, dices o hieres: los 3 estilos, el Mensaje-Yo completo con escucha, pedir y negarse sin perder amistades.</p>
+  <a href="/TutoriaFPB/06-decirlo-sin-liarla" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
+<div class="unit-card">
+  <div class="unit-card-header">
     <span class="num">9 · Kudo Cards</span>
   </div>
   <a href="/TutoriaFPB/09-kudo-cards" class="title-link">🎁 Kudo Cards</a>
@@ -84,7 +93,7 @@ description: Fichas de aula de tutoría para FPB — para Comercio, Informática
 
 </div>
 
-> **En camino** (se van publicando poco a poco): 🗣️ Decirlo sin liarla · ⚖️ Conflicto: modo sabio · 🎲 Banco de juegos · 🎙️ Tu sesión en 50 minutos · 📆 Turnos del aula.
+> **En camino** (se van publicando poco a poco): ⚖️ Conflicto: modo sabio · 🎲 Banco de juegos · 🎙️ Tu sesión en 50 minutos · 📆 Turnos del aula.
 
 ## 🧑‍🤝‍🧑 Los protagonistas
 

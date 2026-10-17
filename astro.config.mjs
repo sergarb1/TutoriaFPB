@@ -63,8 +63,16 @@ const tutoriaItems = [
       { slug: '05-el-insulto-no-es-poder/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
     ],
   },
-  // 6 · 🗣️ Decirlo sin liarla (en preparación)
-  // 6 · 🗣️ Decirlo sin liarla (en preparación)
+  {
+    label: '6 · 🗣️ Decirlo sin liarla',
+    collapsed: true,
+    items: [
+      { slug: '06-decirlo-sin-liarla', label: 'Índice' },
+      { slug: '06-decirlo-sin-liarla/01-llamas-dices-o-hieres', label: '1 · Callas, dices o hieres' },
+      { slug: '06-decirlo-sin-liarla/02-mensaje-yo-y-escucha', label: '2 · Mensaje-Yo y escucha' },
+      { slug: '06-decirlo-sin-liarla/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
   // 7 · ⚖️ Conflicto: modo sabio (en preparación)
   // 8 · 🎲 Banco de juegos (en preparación)
   {
