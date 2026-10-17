@@ -1,5 +1,5 @@
 ---
-title: 2 — Calma: bajar la tensión
+title: "2 — Calma: bajar la tensión"
 description: "5 dinámicas para cuando el grupo está tenso 🌬️"
 ---
 

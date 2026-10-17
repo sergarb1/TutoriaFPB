@@ -1,5 +1,5 @@
 ---
-title: 1 — Cohesión: un grupo que funciona
+title: "1 — Cohesión: un grupo que funciona"
 description: "5 dinámicas para unir antes de que aparezca el conflicto 🪢"
 ---
 
