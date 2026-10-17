@@ -105,8 +105,24 @@ const tutoriaItems = [
       { slug: '09-kudo-cards/05-tu-kudo-en-digital', label: '5 · 📧 Tu kudo en digital' },
     ],
   },
-  // 10 · 🎙️ Tu sesión en 50 minutos (en preparación)
-  // 11 · 📆 Turnos del aula (en preparación)
+  {
+    label: '10 · 🎙️ Tu sesión en 50 minutos',
+    collapsed: true,
+    items: [
+      { slug: '10-tu-sesion-en-50-minutos', label: 'Índice' },
+      { slug: '10-tu-sesion-en-50-minutos/01-anatomia-sesion', label: '1 · La anatomía de la sesión' },
+      { slug: '10-tu-sesion-en-50-minutos/02-tu-guion', label: '2 · Tu guión (plantilla)' },
+    ],
+  },
+  {
+    label: '11 · 📆 Turnos del aula',
+    collapsed: true,
+    items: [
+      { slug: '11-turnos-del-aula', label: 'Índice' },
+      { slug: '11-turnos-del-aula/01-cinco-turnos', label: '1 · Los 5 turnos del aula' },
+      { slug: '11-turnos-del-aula/02-tu-planilla', label: '2 · Tu planilla (plantilla)' },
+    ],
+  },
 ];
 
 export default defineConfig({

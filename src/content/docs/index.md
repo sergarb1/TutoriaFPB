@@ -109,9 +109,27 @@ description: Fichas de aula de tutoría para FPB — para Comercio, Informática
   <a href="/TutoriaFPB/09-kudo-cards" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">10 · Da la sesión</span>
+  </div>
+  <a href="/TutoriaFPB/10-tu-sesion-en-50-minutos" class="title-link">🎙️ Tu sesión en 50 minutos</a>
+  <p class="desc">Monta tu propia tutoría: anatomía de los 5 bloques, ejemplo completo y plantilla imprimible del guión.</p>
+  <a href="/TutoriaFPB/10-tu-sesion-en-50-minutos" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
-> **En camino** (se van publicando poco a poco): 🎙️ Tu sesión en 50 minutos · 📆 Turnos del aula.
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">11 · Responsabilidad</span>
+  </div>
+  <a href="/TutoriaFPB/11-turnos-del-aula" class="title-link">📆 Turnos del aula</a>
+  <p class="desc">Los 5 roles (ventana, pizarra, papelera, material, reloj) con rotación semanal y firma. Plantilla imprimible.</p>
+  <a href="/TutoriaFPB/11-turnos-del-aula" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
+</div>
+
+> ✅ **Las 11 unidades del Modo coop ya están publicadas.** El recorrido completo: confianza → empatía → equipo → líneas rojas → insulto → asertividad → conflicto → juegos → kudos → tu sesión → turnos.
 
 ## 🧑‍🤝‍🧑 Los protagonistas
 
