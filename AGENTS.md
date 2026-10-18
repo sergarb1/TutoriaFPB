@@ -34,7 +34,9 @@ Estilo visual y pedagógico idéntico al proyecto hermano **ApuntesRedes** (`C:\
 - **Idioma:** Solo castellano (es-ES). NO versión valenciana.
 - **Repo/GitHub Pages:** `TutoriaFPB` → base path `/TutoriaFPB`, site `https://sergarb1.github.io/TutoriaFPB`
 - **Despliegue:** GitHub Actions → GitHub Pages en rama `main`
-- **DOCX por unidad:** Pandoc 3.8+ (CLI en PATH) vía `npm run docx` → `docx/<unidad>/<unidad>.docx` (índice + puntos; el script descubre las unidades solas). **Tras editar contenido de unidades, regenerar con `npm run docx` y commitear los DOCX.** Los enlaces internos se convierten en URLs de GitHub Pages para que el DOCX quede con enlaces vivos. Los bloques `<details>` se pierden en DOCX (las soluciones aparecen sin spoiler, aceptado por diseño).
+- **Validación de contenido:** `npm run check` → `scripts/check-frontmatter.mjs` (frontmatter YAML, emoji en description, sin números de unidad en prosa, enlaces/imágenes existentes, sin restos de la web vieja, sidebar vs documentos). El CI (`deploy.yml`) lo ejecuta ANTES del build: si falla, no se despliega.
+- **DOCX por unidad:** Pandoc 3.8.3. **Automáticos en CI**: `docx.yml` regenera los DOCX al hacer push que toque `src/content/docs/**` y los commitea con `[skip ci]`. En local: `npm run docx` → `docx/<unidad>/<unidad>.docx` (índice + puntos; el script descubre las unidades solas). Los enlaces internos se convierten en URLs de GitHub Pages para que el DOCX quede con enlaces vivos. Los bloques `<details>` se pierden en DOCX (las soluciones aparecen sin spoiler, aceptado por diseño).
+- **Impresión por unidad:** `/imprimir/<unidad>` (`src/pages/imprimir/[unidad].astro`) junta índice + fichas con salto de página; CSS `@media print` en `custom.css` (A4, cortes, soluciones OCULTAS en papel — el DOCX las trae visibles). **NO se generan PDF en CI** (decisión del usuario: el profe usa "Guardar como PDF" desde esa página).
 - **Imágenes:** diagramas Excalidraw (1 por ficha) en `public/img/NN-nombre/` (SVG + PNG) con fuentes `.excalidraw` editables en `public/img/fuentes/`
 
 ---
@@ -46,11 +48,15 @@ src/content/docs/            → Landing (index.md)
 src/content/docs/NN-nombre/  → Puntos de cada unidad (01-…, 02-…, NN-juegos-y-retos)
 src/content.config.ts        → Colección docs de Starlight (no tocar salvo actualización de Starlight)
 src/styles/custom.css        → CSS del tema (azul + teal, glassmorphism, print)
+src/pages/imprimir/[unidad].astro → Página de impresión por unidad (índice + fichas, fuera de Starlight)
 public/favicon.svg           → Icono
+scripts/check-frontmatter.mjs → Validador de contenido (npm run check; corre en CI)
 scripts/generate-docx.mjs    → Generación DOCX por unidad (Pandoc; descubre las unidades solas)
-docx/NN-nombre/              → DOCX generados (van al repo)
-.github/workflows/deploy.yml → CI/CD a GitHub Pages
+docx/NN-nombre/              → DOCX generados (van al repo; el CI los regenera solo)
+.github/workflows/deploy.yml → CI/CD a GitHub Pages (check → build → deploy)
+.github/workflows/docx.yml   → Regenera y commitea los DOCX al cambiar contenido
 astro.config.mjs             → Config Astro + Starlight (sidebar con las unidades creadas)
+planaseguir.txt              → Estado del proyecto y plan de continuidad (léelo antes de continuar)
 ```
 
 ---
@@ -68,7 +74,7 @@ astro.config.mjs             → Config Astro + Starlight (sidebar con las unida
 
 Filosofía: **unidades pequeñas** (índice + 2-4 puntos = fichas). Cada tema de convivencia es su propia unidad. **NO hay bloque de Aules** y **NO hay Sección de contenidos de módulos** (decisión del usuario: este repo es solo tutoría; los contenidos viven en el repo hermano `ActividadesFPBComercio`).
 
-> 🔄 **En reconversión a fichas:** unidades 1, 2, 3 y 9 se están convirtiendo al formato de ficha. Las nuevas unidades se escriben ya en formato ficha desde el primer borrador.
+> ✅ **Las 11 unidades están ya en formato ficha** (índice + puntos con ejercicios rellenables).
 
 ### 🤝 Unidades de tutoría: la clase que funciona
 
@@ -252,7 +258,8 @@ Unidades **pequeñas**: índice + 2-4 puntos. Si un tema crece, se parte en dos 
 
 ### Páginas imprimibles
 
-Las unidades de guiones y turnos (`09-tu-sesion-en-50-minutos`, `10-turnos-del-aula`) se pensan para imprimir: instrucciones de impresión en la propia página; `custom.css` ya tiene `@media print`.
+- Toda ficha se imprime bien a pelo (Ctrl+P): `custom.css` ya tiene `@media print` (A4, cortes, sin soluciones).
+- Las unidades completas tienen página propia **`/imprimir/<unidad>`** (índice + fichas con salto de página). Los índices llevan el botón "🖨️ ¿En papel? Imprimir unidad completa" tras la línea del mapa: **al crear una unidad nueva, añadir también ese botón en su índice** (copiar el patrón de cualquier índice existente).
 
 ---
 
@@ -260,25 +267,31 @@ Las unidades de guiones y turnos (`09-tu-sesion-en-50-minutos`, `10-turnos-del-a
 
 ```bash
 npm run dev       # Servidor local → http://localhost:4321
+npm run check     # Validar contenido (frontmatter, enlaces, sidebar)
 npm run build     # Build estático → dist/
 npm run preview   # Previsualizar build
-npm run docx      # DOCX por unidad → docx/ (requiere Pandoc en PATH)
+npm run docx      # DOCX por unidad → docx/ (en local; el CI los regenera solo)
 ```
+
+**Tras editar contenido:** `npm run check` y `npm run build` (el DOCX lo hace el CI al pushear).
 
 ---
 
 ## 🧪 Checklist para nueva unidad
 
-- [ ] Frontmatter (title, description con emoji)
+- [ ] Frontmatter (title, description con emoji; si llevan `:`, ENTRECOMILLAR)
 - [ ] Sin números de unidad en prosa ni títulos
-- [ ] Índice: objetivo, mapa (tabla), actividades, ¿por dónde empiezo?, pie
+- [ ] Índice: objetivo, mapa (tabla), actividades, ¿por dónde empiezo?, pie + botón "🖨️ Imprimir unidad completa"
 - [ ] Cada punto: 📬 En corto, desarrollo, mini-chequeo, resumen en 3 frases, vocabulario, pie Anterior/Siguiente
 - [ ] Tutoría: ≥1 dinámica 🤝 + ≥1 😬 fail de DANI + soluciones en `<details>`
+- [ ] 1 diagrama Excalidraw por ficha en `public/img/NN-nombre/` (+ fuente en `fuentes/`)
 - [ ] Sidebar actualizado en `astro.config.mjs` (solo páginas existentes; el build falla con enlaces rotos)
+- [ ] Landing `index.md` actualizada (tarjeta + contador de unidades)
+- [ ] `npm run check` → 0 errores
 - [ ] `npm run build` exitoso
-- [ ] `npm run docx` regenerado tras editar contenido
 - [ ] Comprobación lingüística es-ES
 - [ ] Tono clima de aula: cooperativo, inclusivo, sin insultos modelados
+- [ ] Commit en español (los DOCX los regenera el CI solo)
 
 ---
 
@@ -287,6 +300,19 @@ npm run docx      # DOCX por unidad → docx/ (requiere Pandoc en PATH)
 1. **NO crear versiones en valenciano.**
 2. **NO romper la misión de clima de aula** (ver arriba).
 3. **NO enlazar páginas inexistentes** en sidebar o landing (el build falla).
-4. **Al añadir una unidad nueva:** crear carpeta, índice, fichas, añadir al sidebar y actualizar el temario de este AGENTS.md.
-5. **Checkpoint de tono:** el usuario revisa las primeras unidades antes de masificar el resto; si pide cambios de tono o nombres, aplicarlos primero aquí.
-6. **P4QU3T3 (de ApuntesRedes) no aplica aquí:** los personajes de este proyecto son ROSA y DANI.
+4. **Al añadir una unidad nueva:** crear carpeta, índice, fichas, añadir al sidebar, actualizar la landing y el temario de este AGENTS.md.
+5. **YAML:** `title` o `description` con `:` SIN entrecomillar rompen el build. El validador (`npm run check`) lo detecta y explica la solución, pero mejor prevenir.
+6. **El repo viejo `ActividadesFPBComercio` está DESCARTADO** por el usuario: no copiar ni enlazar su contenido.
+7. **P4QU3T3 (de ApuntesRedes) no aplica aquí:** los personajes de este proyecto son ROSA y DANI.
+
+---
+
+## 📌 Plan de mejora en curso (detalle en `planaseguir.txt`)
+
+El proyecto sigue un plan de 4 fases aprobado por el usuario. **Fases 1 (CI) y 2 (impresión) COMPLETADAS.** Pendientes:
+
+- **Fase 3 — Unidad 12 🌐 Ciberconvivencia** (genérica, cualquier ciclo): índice + 3 fichas (*El grupo de 30*, *Cuando el chat se vira*, *Retos y estafas*) + 3 diagramas.
+- **Fase 4 — Unidades 13-15:** 13 💚 Bienestar y estrés · 14 🧭 Mi futuro FPB (sin duplicar "Con y sin graduado" del repo viejo; en clave orientación) · 15 🌈 Diversidad y respeto. Un commit por unidad.
+- **Cierre:** landing a "Las 15 unidades", pie de la unidad de turnos → nueva unidad de ciberconvivencia, temario de este AGENTS.md 11 → 15.
+
+Decisiones fijas: **sin PDF en CI** (solo DOCX automáticos), **sin correcciones de contenido** pendientes en las unidades nuevas, widgets/plan anual/emergencia descartados. El flujo técnico completo (diagramas Excalidraw paso a paso, paleta, puerto del canvas) está en `planaseguir.txt` §3.

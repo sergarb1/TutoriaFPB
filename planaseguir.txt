@@ -1,0 +1,151 @@
+===============================================================================
+ PLAN A SEGUIR — Tutoría FPB  (última actualización: 18/10/2026)
+ Para continuar el proyecto desde cero: léelo entero antes de tocar nada.
+ Repo local: C:\Users\serga\Desktop\TutoriaFPB   Web: sergarb1.github.io/TutoriaFPB
+===============================================================================
+
+-------------------------------------------------------------------------------
+1. ESTADO ACTUAL  ✅
+-------------------------------------------------------------------------------
+- 11 unidades COMPLETAS y publicadas (índice + fichas, diagramas, DOCX 11/11).
+- Build 🟢: 57 páginas = 45 docs (landing + 11 índices + 33 fichas) + 11 páginas
+  de impresión /imprimir/<unidad>.  (Ojo: el landing cuenta como página de docs;
+  si el build dice 57 estás bien.)
+- npm run check 🟢 (0 errores, 45 páginas, 45 enlaces de sidebar).
+- Fase 1 (CI) HECHA:
+  · scripts/check-frontmatter.mjs → npm run check. Valida: YAML frontmatter
+    (títulos con ':' mal entrecomillados rompen el build → el validador lo
+    explica), title/description con emoji, sin números de unidad en prosa
+    (U01, "Unidad 5"), enlaces internos /TutoriaFPB/... que existan (incluye
+    rutas /imprimir/<unidad>), imágenes en public/, restos de la web vieja
+    /ActividadesFPBComercio, y sidebar vs documentos.
+  · deploy.yml: paso "npm run check" ANTES del build.
+  · .github/workflows/docx.yml: al hacer push en main que toque
+    src/content/docs/**, instala Pandoc 3.8.3, regenera DOCX y los commitea
+    con "[skip ci]" (solo si cambian). → NO hace falta regenerar DOCX a mano
+    tras editar contenido; pero LOCALMENTE sigue existiendo npm run docx.
+  · generate-docx.mjs: arreglado el bug que reescribía enlaces a
+    /ActividadesFPBComercio (web vieja); ahora a /TutoriaFPB.
+- Fase 2 (impresión) HECHA:
+  · custom.css: UN SOLO bloque @media print (se eliminó el duplicado), con
+    @page A4, break-inside avoid en .ejercicio/tablas/imagen/cabecera,
+    h2 sin huérfanos, y soluciones OCULTAS en el papel
+    (details:not([open]) > *:not(summary) → display:none). En el DOCX salen
+    visibles (pandoc pierde <details>): decisión aceptada.
+  · src/pages/imprimir/[unidad].astro: página fuera de Starlight que junta
+    índice + todas las fichas de la unidad con salto de página entre fichas y
+    botón "Imprimir / Guardar PDF" (el PDF se genera desde el navegador del
+    profe; el usuario decidió NO generar PDF en CI).
+  · Botón "🖨️ ¿En papel? Imprimir unidad completa" insertado en los 11 índices
+    (tras la línea del mapa). Si creas unidad nueva, añádelo también
+    (patrón en cualquier índice existente).
+
+-------------------------------------------------------------------------------
+2. PENDIENTE  ⬜  (en este orden; el usuario ya lo aprobó)
+-------------------------------------------------------------------------------
+
+=== FASE 3 — Unidad 12 🌐 Ciberconvivencia (genérica, cualquier ciclo) ===
+
+  Contenido (3 fichas):
+   12-ciberconvivencia.md          índice
+   12-ciberconvivencia/01-chat-plaza-publica.md   "El grupo de 30": lo que
+       escribes en un grupo no desaparece; huella digital; quién puede leerlo.
+   12-ciberconvivencia/02-cuando-se-vira.md       Cuando el chat se vira:
+       haters, cadenas, captación de extraños, a quién y cuándo avisar.
+   12-ciberconvivencia/03-juegos-y-retos.md       Retos virales, filtros que
+       capturan tu cara, estafas del "regalo gratis", gaming y comunidad.
+
+  3 diagramas Excalidraw en public/img/12-ciberconvivencia/
+   (01-chat-plaza-publica.svg/.png, 02-cuando-se-vira…, 03-juegos-y-retos…)
+   con fuentes .excalidraw en public/img/fuentes/ (ver flujo en §3).
+
+  Pasos: índice + fichas → sidebar (astro.config.mjs, tutoriaItems) →
+  landing index.md (tarjeta + "Las 12 unidades…") → U11 02-tu-planilla.md
+  (el pie "Fin del recorrido" pasa a enlazar la unidad de ciberconvivencia) →
+  botón imprimir en el índice → npm run check + build + docx → commit.
+
+=== FASE 4 — Unidades 13, 14 y 15 (3 fichas cada una; un commit por unidad) ===
+
+  13-bienestar-y-estres 💚   Bienestar: sueño, presión de notas/comparación,
+                             desconexión, cuándo y a quién pedir ayuda.
+  14-mi-futuro-fpb 🧭        Qué puedes hacer con la FPB (FCT, oposiciones
+                             FP, empleo, seguir estudiando). EVITAR duplicar
+                             la unidad "Con y sin graduado" del repo viejo
+                             ActividadesFPBComercio: aquí va en clave
+                             tutoría/orientación, con plan personal rellenable.
+  15-diversidad-y-respeto 🌈 Diversidad funcional, cultural, LGTBI e
+                             inclusión; el "diferente" como parte del grupo.
+
+  Cada una: índice + 3 fichas + 3 diagramas + sidebar + landing + botón
+  imprimir + check/build/docx + commit. La 15 cierra el recorrido (pie final
+  con "has terminado", que ahora vive en 11).
+
+=== CIERRE ===
+  - index.md: "Las 15 unidades…" y tarjetas de las 4 nuevas.
+  - AGENTS.md: temario 11 → 15 y borrar esta sección de plan (se resume).
+  - planaseguir.txt: marcar Fase 3/4 como hechas.
+  - Push final y comprobar la web en Pages.
+
+-------------------------------------------------------------------------------
+3. FLUJO TÉCNICO DE TRABAJO (cómo se hace una unidad)
+-------------------------------------------------------------------------------
+- Directorio de trabajo: C:\Users\serga\Desktop\TutoriaFPB (NO el Ofimatica).
+- Tras CUALQUIER edición de contenido:
+      npm run check   # validador (debe dar 0 errores)
+      npm run build   # build estático
+  Los DOCX ya los regenera el CI solo; solo usa `npm run docx` si quieres
+  comprobarlo en local (requiere Pandoc 3.8.3 en PATH).
+
+- DIAGRAMAS EXCALIDRAW (1 por ficha):
+  1. Servidor de canvas en PUERTO 3001. Cada comando CLI lleva delante:
+        $env:EXPRESS_SERVER_URL = 'http://127.0.0.1:3001'
+     Si no responde, levántalo con: npx -y mcp-excalidraw-server (skill
+     excalidraw-skill disponible).
+  2. Escribe el JSON del diagrama con la herramienta write (UTF-8). NUNCA con
+     PowerShell Get-Content (rompe los acentos).
+  3. clear --yes  →  add (el JSON).
+  4. Verificar: en C:\Users\serga\Desktop\PresentacionesEducativas ejecuta
+        node verify-excalidraw.mjs <ruta\salida.png> 1200 700
+     y corrije desbordes (vuelve al paso 2-3 con el JSON ajustado).
+  5. Exportar SVG + PNG --scale 2 → public/img/NN-nombre/ + copiar el JSON a
+     public/img/fuentes/NN-nombre-xx.excalidraw.
+  6. Insertar en la ficha: ![...](/TutoriaFPB/img/NN-nombre/xx.svg)
+     dentro de <div class="ficha-img">.
+
+  PALETA del proyecto (diagramas): #e3edff/#2563eb (azul), #d9f6f3/#00897b
+  (teal), #fff4d9/#e67e22 (ámbar), #efe7fd/#7c4dbc (violeta),
+  #fde8e8/#c0392b (rojo). fillStyle solid, roundness type 3, fontSize 13-17
+  en cajas (22-24 en títulos), saltos de línea con \n explícitos.
+
+- REGLAS DE CONTENIDO (las chequea el validador, pero mejor no pisarlas):
+  · Frontmatter: si title/description llevan DOS PUNTOS, ENTRECOMILLAR SIEMPRE
+    (es el error que más ha roto el build).
+  · Sin números de unidad en prosa ("en la unidad de empatía", no "U02").
+  · Formato de ficha: ver plantilla en AGENTS.md (cabecera imprimible,
+    ejercicios en .ejercicio, soluciones en <details>, min. 1 dinámica 🤝 y
+    1 😬 fail de DANI por unidad de tutoría).
+  · ROSA (encargada cascarrabia) y DANI (dependiente metepata): el fail es
+    SIEMPRE de DANI, nunca del alumno. Cooperativo, inclusivo, cero insultos
+    modelados, tono esperanzador.
+  · es-ES: millares con punto, coma decimal, trato de tú, ejemplos 16-17
+    (insta/tiktok, WhatsApp, primer curro).
+- Git: commits en español; push a main (GitHub Pages despliega solo; el
+  commit de DOCX del CI lleva [skip ci] para no provocar bucle).
+- Sidebar: astro.config.mjs → array tutoriaItems; el build FALLA si enlazas
+  una página inexistente. El validador también lo detecta antes.
+- Si Working dir dice C:\Users\serga\Desktop\Ofimatica en algún entorno: ese
+  repo está DESCARTADO por el usuario ("del otro ya olvidarse") — no tocar.
+
+-------------------------------------------------------------------------------
+4. DECISIONES YA TOMADAS POR EL USUARIO (no reabrir)
+-------------------------------------------------------------------------------
+- SIN PDF en CI: solo DOCX automático. El PDF lo saca el profe desde el
+  navegador en /imprimir/<unidad> ("Guardar como PDF").
+- SIN correcciones de contenido en las 3 unidades nuevas propuestas: se
+  escriben tal cual el plan de §2.
+- Repo viejo ActividadesFPBComercio: abandonado. Nada de contenido de módulos
+  aquí; TutoriaFPB es SOLO tutoría y genérico para cualquier ciclo FPB.
+- Sin versión en valenciana.
+- Widgets, plan anual y unidad de emergencia: DESCARTADOS por el usuario.
+
+===============================================================================

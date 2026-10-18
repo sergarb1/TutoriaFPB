@@ -17,17 +17,23 @@ Mejorar el clima del aula con actividades **cooperativas** (nunca destructivas):
 
 ---
 
-## 📚 Contenido
+## 📚 Contenido — 11 unidades publicadas
 
 | Unidad | Fichas |
 |---|---|
 | 🌱 Confianza real | Qué es, cómo se cuida, juegos y retos |
 | 🎭 Ponte en su sitio | Empatía: sentirla, practicarla, cyberempatía |
 | 🧩 Modo equipo | Compañerismo: nadie se queda solo |
+| 🛡️ Líneas rojas | Respeto, límites y cero bullying ("uno contra el grupo") |
+| 🔓 El insulto no es poder | No dar la reacción que busca; el límite: persiste → se avisa |
+| 🗣️ Decirlo sin liarla | Asertividad: Mensaje-Yo, escuchar y responder sin insultar |
+| ⚖️ Conflicto: modo sabio | Anatomía del conflicto y acuerdos de clase |
+| 🎲 Banco de juegos | Dinámicas de cohesión y de calma, con fichas |
 | 🎁 Kudo Cards | Guía + banco de +50 tarjetas + herramienta digital |
-| 🛡️ 🔓 🗣️ ⚖️ 🎲 🎙️ 📆 | En camino: líneas rojas, insultos, asertividad, conflicto, banco de juegos, sesiones, turnos |
+| 🎙️ Tu sesión en 50 minutos | Guión de tutoría (tema libre) para Aules o papel |
+| 📆 Turnos del aula | Lista de responsables diarios: plantilla para imprimir |
 
-Cada punto es una **ficha imprimible de 1-2 A4** con ejercicios para rellenar (soluciones ocultas en web).
+Cada punto es una **ficha imprimible** con ejercicios para rellenar (soluciones ocultas en web y en el papel; visibles en el DOCX). Y cada unidad tiene su página **`/imprimir/<unidad>`**: índice + todas las fichas con salto de página y botón para imprimirlas o guardarlas en PDF.
 
 ---
 
@@ -35,14 +41,19 @@ Cada punto es una **ficha imprimible de 1-2 A4** con ejercicios para rellenar (s
 
 - **Astro 7 + Starlight** — estático, sin backend, sin cookies.
 - **Despliegue:** GitHub Actions → GitHub Pages (rama `main`).
-- **DOCX por unidad:** `npm run docx` (requiere Pandoc en PATH) → `docx/<unidad>/`.
+- **Validación de contenido:** `npm run check` (frontmatter, enlaces, sidebar); también corre en el CI antes del build.
+- **DOCX por unidad:** automáticos en CI al cambiar el contenido (con Pandoc); en local, `npm run docx` → `docx/<unidad>/`.
+- **Imprimir:** página `/imprimir/<unidad>` por unidad (A4, soluciones ocultas, PDF desde el navegador).
 - **Imágenes:** diagramas Excalidraw editables en `public/img/fuentes/`.
 
 ```bash
 npm run dev      # http://localhost:4321
+npm run check    # validar contenido antes del build
 npm run build    # dist/
-npm run docx     # DOCX por unidad
+npm run docx     # DOCX por unidad (en local; el CI lo hace solo)
 ```
+
+> 📌 **¿Continúas el proyecto?** Lee `planaseguir.txt`: estado actual, pendientes (unidades 12-15) y flujo de trabajo paso a paso.
 
 ---
 
