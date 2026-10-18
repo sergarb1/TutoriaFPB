@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - name: Instalar Pandoc (misma versión que en local: 3.8.3)
+      - name: "Instalar Pandoc (misma versión que en local: 3.8.3)"
         run: |
           wget -q "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-1-amd64.deb"
           sudo dpkg -i pandoc-3.8.3-1-amd64.deb
@@ -33,14 +33,27 @@ jobs:
         run: npm ci
       - name: Generar DOCX
         run: npm run docx
-      - name: Commit de los DOCX (solo si cambian)
+      - name: Commit de los DOCX (solo si cambia el contenido)
+        # Pandoc incrusta la fecha de generación en cada DOCX, así que los
+        # binarios SIEMPRE difieren. Comparamos el contenido real
+        # (word/document.xml) y solo commiteamos si algo ha cambiado.
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docx/
-          if git diff --staged --quiet; then
-            echo "DOCX sin cambios — nada que commitear."
-          else
+          changed=0
+          for f in $(git diff --staged --name-only); do
+            if ! git show "HEAD:$f" > /tmp/prev.docx 2>/dev/null; then
+              echo "Nuevo: $f"; changed=1; continue
+            fi
+            old=$(unzip -p /tmp/prev.docx word/document.xml | sha256sum | cut -d' ' -f1)
+            new=$(unzip -p "$f" word/document.xml | sha256sum | cut -d' ' -f1)
+            if [ "$old" != "$new" ]; then echo "Contenido cambia: $f"; changed=1; fi
+          done
+          if [ "$changed" = "1" ]; then
             git commit -m "chore: regenerar DOCX [skip ci]"
             git push
+          else
+            git restore --staged docx/
+            echo "DOCX sin cambios de contenido (solo la fecha de pandoc) — nada que commitear."
           fi
