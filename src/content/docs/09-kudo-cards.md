@@ -7,6 +7,8 @@ description: El "gracias" con plantilla que cambia el clima ⭐
 
 > 🗺️ **El mapa:** 🤝 Tutoría → **Kudo Cards** → …
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/09-kudo-cards) — índice + todas las fichas, con salto de página.
+
 ---
 
 ¿Sabías que hay una técnica de empresas (de esas de management moderno) que consiste en nada más y nada menos que en **agradecer de forma pública y escrita** lo bien que trabaja tu equipo? Se llaman **Kudo Cards**, y funcionan igual de bien en una tienda, en una oficina… y en un aula. Aquí las montas para tu clase: qué son, cómo se usan, con qué reglas, **+50 tarjetas listas** y una herramienta para mandarlas por correo.
@@ -58,4 +60,4 @@ Al terminar, serás capaz de:
 
 **📍 Primer punto:** [01 · Qué son y las 6 reglas de oro](/TutoriaFPB/09-kudo-cards/01-que-son-y-las-6-reglas-de-oro)
 
-**⏭️ Al acabar la unidad, continúa en [Tu sesión en 50 minutos](/TutoriaFPB/11-tu-sesion-en-50-minutos) (próximamente).**
+**⏭️ Al acabar la unidad, continúa en [Tu sesión en 50 minutos](/TutoriaFPB/10-tu-sesion-en-50-minutos).**

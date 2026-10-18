@@ -7,6 +7,8 @@ description: Dinámicas de cohesión y de calma de conflictos, listas para usar 
 
 > 🗺️ **El mapa:** 🤝 Tutoría → **Banco de juegos** → Tu sesión en 50 minutos
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/08-banco-de-juegos) — índice + todas las fichas, con salto de página.
+
 ---
 
 Un banco de dinámicas **probadas**, con lo mínimo para usarlas en clase: objetivo, tiempo, material, pasos e inclusión. Dos cajones: **cohesión** (unir al grupo antes de que aparezca el conflicto) y **calma** (bajar la tensión cuando ya está vivo). Y el kit del profe para elegir bien.

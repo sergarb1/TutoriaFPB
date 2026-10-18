@@ -7,6 +7,8 @@ description: La reacción es el premio del que insulta — y tú das o no das es
 
 > 🗺️ **El mapa:** 🤝 Tutoría → **El insulto no es poder** → Decirlo sin liarla
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/05-el-insulto-no-es-poder) — índice + todas las fichas, con salto de página.
+
 ---
 
 Un insulto no es una verdad con mala cara: es una **apuesta**. El que insulta apuesta a que le darás lo que busca: risa, miedo, un llanto, una respuesta. Aquí aprendes por qué tu reacción es el premio, cómo no dárselo… y el límite que evita convertirte en un muro que aguanta todo (porque **aguantar no es la meta**: la meta es que pare, y si no para, se avisa).

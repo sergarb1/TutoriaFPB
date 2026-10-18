@@ -7,6 +7,8 @@ description: La empatía no es un rollo, es darte cuenta 🎭
 
 > 🗺️ **El mapa:** 🤝 Tutoría → Confianza real → **Ponte en su sitio** → Modo equipo
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/02-ponte-en-su-sitio) — índice + todas las fichas, con salto de página.
+
 ---
 
 ¿Alguna vez te han dicho "ponte en mi sitio" justo cuando estabas a punto de hacer un comentario gracioso a costa de alguien? Esa frase no es un reproche vacío: es literalmente la habilidad más útil que existe para que una clase funcione. Y no, no consiste en aguantar rollos: consiste en darte cuenta de lo que le pasa al de al lado. También en el chat.

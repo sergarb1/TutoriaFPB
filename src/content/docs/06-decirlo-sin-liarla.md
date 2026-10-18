@@ -7,6 +7,8 @@ description: "Asertividad: el Mensaje-Yo, escuchar y responder sin insultar 🗣
 
 > 🗺️ **El mapa:** 🤝 Tutoría → **Decirlo sin liarla** → Conflicto: modo sabio
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/06-decirlo-sin-liarla) — índice + todas las fichas, con salto de página.
+
 ---
 
 Decir lo que piensas sin liar la cosa. Suena fácil y no lo es: entre "callarte" y "gritar" hay un tercer camino que se aprende — **la asertividad**. Aquí desmontas los 3 estilos de siempre, perfeccionas el Mensaje-Yo, aprendes a escuchar de verdad y a pedir (o negarte) sin perder amistades.

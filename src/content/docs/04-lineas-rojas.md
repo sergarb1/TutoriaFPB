@@ -7,6 +7,8 @@ description: Respeto, límites personales y cero bullying 🛡️
 
 > 🗺️ **El mapa:** 🤝 Tutoría → **Líneas rojas** → El insulto no es poder
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/04-lineas-rojas) — índice + todas las fichas, con salto de página.
+
 ---
 
 Aquí se habla claro de lo que a veces nadie nombra: las bromas que dejan de ser bromas, los apodos que duelen, el grupo que se ríe siempre del mismo. Aprenderás a distinguir broma de bullying (que no es lo mismo), a poner tus límites sin pelearte, y a ser de los que cortan el juego en lugar de mirar a otro lado. Sin sermones: con herramientas.

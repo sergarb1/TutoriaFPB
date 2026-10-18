@@ -25,6 +25,8 @@ jobs:
           cache: npm
       - name: Instalar dependencias
         run: npm ci
+      - name: Validar contenido (frontmatter, enlaces, sidebar)
+        run: npm run check
       - name: Build (Astro)
         run: npm run build
       - name: Configurar Pages

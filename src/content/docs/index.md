@@ -1,6 +1,6 @@
 ---
 title: Tutoría FPB
-description: Fichas de aula de tutoría para FPB — para Comercio, Informática, Administrativo… CC BY-SA 4.0
+description: 🤝 Fichas de aula de tutoría para FPB — para Comercio, Informática, Administrativo… CC BY-SA 4.0
 ---
 
 <div class="ficha-hero">

@@ -7,6 +7,8 @@ description: Nadie se queda solo 🧩
 
 > 🗺️ **El mapa:** 🤝 Tutoría → Confianza real → Ponte en su sitio → **Modo equipo**
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/03-modo-equipo) — índice + todas las fichas, con salto de página.
+
 ---
 
 Un grupo de clase no es una cola de supermercado: no se trata de estar cada uno en lo suyo hasta que salgas de ahí. El compañerismo no es ser el mejor amigo de todos ni dar abrazos por obligación: es algo mucho más sencillo y más potente — **no dejar a nadie fuera**. En esta unidad tienes los gestos concretos y una misión secreta para practicarlos.

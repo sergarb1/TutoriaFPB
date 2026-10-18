@@ -7,6 +7,8 @@ description: "Monta tu propia sesión de tutoría: título, objetivo, dinámica 
 
 > 🗺️ **El mapa:** 🤝 Tutoría → **Tu sesión en 50 minutos** → Turnos del aula
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/10-tu-sesion-en-50-minutos) — índice + todas las fichas, con salto de página.
+
 ---
 
 Aquí toca el otro lado: **tú das la sesión**. Elige un tema que te apasione (música, baile, deporte, videojuegos, cocinar…) y monta una tutoría de 50 minutos con título, objetivo, intro para tus compañeros, paso a paso, material y conclusiones. En Aules o en papel — aquí tienes la plantilla imprimible y un ejemplo completo.

@@ -7,6 +7,8 @@ description: "Lista de responsables diarios: plantilla para imprimir y firmar �
 
 > 🗺️ **El mapa:** 🤝 Tutoría → **Turnos del aula** → Fin del recorrido
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/11-turnos-del-aula) — índice + todas las fichas, con salto de página.
+
 ---
 
 La lista de turnos no es un castigo: es el sistema que hace que **nadie se quede sin rol y nadie haga todo**. 5 responsables (ventana, pizarra, papelera, material, reloj), 1 rol por persona al día, rotación semanal y firma. Aquí tienes el porqué, las reglas y la plantilla para imprimir.

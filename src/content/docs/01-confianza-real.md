@@ -7,6 +7,8 @@ description: Deja de decirte "no sirvo para nada" 🌱
 
 > 🗺️ **El mapa:** 🤝 Tutoría → **Confianza real** → Ponte en su sitio
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/01-confianza-real) — índice + todas las fichas, con salto de página.
+
 ---
 
 ¿Quién no se ha oído alguna vez esa voz que dice "esto no lo vas a hacer bien, mejor ni intentarlo"? Pues esa voz no es un profeta: es costumbre. En esta unidad aprendes qué es la confianza de verdad (no la de presumir en stories) y cómo se cuida, que es más fácil de lo que parece y no requiere comprarse nada.

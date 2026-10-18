@@ -33,10 +33,7 @@ function getFrontTitle(content, fallback) {
 function rewriteLinks(content) {
   // Los enlaces internos se convierten en URLs de GitHub Pages para que en
   // el DOCX sean enlaces vivos tras el despliegue.
-  return content.replaceAll(
-    '](/ActividadesFPBComercio/',
-    '](https://sergarb1.github.io/ActividadesFPBComercio/',
-  );
+  return content.replaceAll('](/TutoriaFPB/', '](https://sergarb1.github.io/TutoriaFPB/');
 }
 
 function toSectionMarkdown(filePath) {

@@ -1,0 +1,46 @@
+name: Regenerar DOCX
+
+# Regenera los DOCX por unidad cuando cambia el contenido, y los commitea
+# solo si algo ha cambiado. El commit lleva [skip ci] para no re-triggerar
+# este workflow ni el deploy (los DOCX no forman parte del sitio publicado).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/content/docs/**'
+      - 'scripts/generate-docx.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  docx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Instalar Pandoc (misma versión que en local: 3.8.3)
+        run: |
+          wget -q "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-1-amd64.deb"
+          sudo dpkg -i pandoc-3.8.3-1-amd64.deb
+          pandoc --version | head -1
+      - name: Instalar dependencias
+        run: npm ci
+      - name: Generar DOCX
+        run: npm run docx
+      - name: Commit de los DOCX (solo si cambian)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docx/
+          if git diff --staged --quiet; then
+            echo "DOCX sin cambios — nada que commitear."
+          else
+            git commit -m "chore: regenerar DOCX [skip ci]"
+            git push
+          fi

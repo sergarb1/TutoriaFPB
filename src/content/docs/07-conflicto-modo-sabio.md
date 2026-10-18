@@ -7,6 +7,8 @@ description: Anatomía del conflicto, resolución paso a paso y acuerdos que fun
 
 > 🗺️ **El mapa:** 🤝 Tutoría → **Conflicto: modo sabio** → Banco de juegos
 
+> 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/07-conflicto-modo-sabio) — índice + todas las fichas, con salto de página.
+
 ---
 
 Un conflicto no es el fin del mundo: es **una pelea por una necesidad** que nadie ha bajado del iceberg todavía. Aquí aprendes a ver lo que no se dice, a resolver paso a paso (sin pelea y sin callarte) y a firmar acuerdos que no se rompen a la semana.
