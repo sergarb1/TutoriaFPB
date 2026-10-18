@@ -7,11 +7,11 @@
 -------------------------------------------------------------------------------
 1. ESTADO ACTUAL  ✅
 -------------------------------------------------------------------------------
-- 11 unidades COMPLETAS y publicadas (índice + fichas, diagramas, DOCX 11/11).
-- Build 🟢: 57 páginas = 45 docs (landing + 11 índices + 33 fichas) + 11 páginas
+- 15 unidades COMPLETAS y publicadas (índice + fichas, diagramas, DOCX 15/15).
+- Build 🟢: 77 páginas = 61 docs (landing + 15 índices + 45 fichas) + 15 páginas
   de impresión /imprimir/<unidad>.  (Ojo: el landing cuenta como página de docs;
-  si el build dice 57 estás bien.)
-- npm run check 🟢 (0 errores, 45 páginas, 45 enlaces de sidebar).
+  si el build dice 77 estás bien.)
+- npm run check 🟢 (0 errores, 61 páginas, 61 enlaces de sidebar).
 - Fase 1 (CI) HECHA:
   · scripts/check-frontmatter.mjs → npm run check. Valida: YAML frontmatter
     (títulos con ':' mal entrecomillados rompen el build → el validador lo
@@ -41,10 +41,10 @@
     (patrón en cualquier índice existente).
 
 -------------------------------------------------------------------------------
-2. PENDIENTE  ⬜  (en este orden; el usuario ya lo aprobó)
+2. PENDIENTE  ✅  TODO COMPLETADO (unidades 12-15 hechas y commiteadas)
 -------------------------------------------------------------------------------
 
-=== FASE 3 — Unidad 12 🌐 Ciberconvivencia (genérica, cualquier ciclo) ===
+=== FASE 3 ✅ — Unidad 12 🌐 Ciberconvivencia (commit 2c94b83) ===
 
   Contenido (3 fichas):
    12-ciberconvivencia.md          índice
@@ -64,7 +64,7 @@
   (el pie "Fin del recorrido" pasa a enlazar la unidad de ciberconvivencia) →
   botón imprimir en el índice → npm run check + build + docx → commit.
 
-=== FASE 4 — Unidades 13, 14 y 15 (3 fichas cada una; un commit por unidad) ===
+=== FASE 4 ✅ — Unidades 13, 14 y 15 (bb06d71, bcbfe59, 9f00b08) ===
 
   13-bienestar-y-estres 💚   Bienestar: sueño, presión de notas/comparación,
                              desconexión, cuándo y a quién pedir ayuda.
@@ -80,11 +80,12 @@
   imprimir + check/build/docx + commit. La 15 cierra el recorrido (pie final
   con "has terminado", que ahora vive en 11).
 
-=== CIERRE ===
-  - index.md: "Las 15 unidades…" y tarjetas de las 4 nuevas.
-  - AGENTS.md: temario 11 → 15 y borrar esta sección de plan (se resume).
-  - planaseguir.txt: marcar Fase 3/4 como hechas.
-  - Push final y comprobar la web en Pages.
+=== CIERRE ✅ ===
+  - [x] index.md: "Las 15 unidades…" y tarjetas de las 4 nuevas.
+  - [x] AGENTS.md: temario 11 → 15 y sección de plan resumida como COMPLETADO.
+  - [x] planaseguir.txt: Fase 3/4 y cierre marcados como hechos.
+  - [x] Push final a main (los commits de las unidades 12-15 + este cierre)
+        y comprobar la web en GitHub Pages.
 
 -------------------------------------------------------------------------------
 3. FLUJO TÉCNICO DE TRABAJO (cómo se hace una unidad)

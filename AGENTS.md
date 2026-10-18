@@ -8,7 +8,7 @@ Este archivo ayuda a cualquier agente LLM (opencode, Claude, ChatGPT, etc.) a en
 
 Web de **fichas de tutoría para FPB** (alumnado de 16-17 años), **genérica para cualquier ciclo**: Comercio, Informática, Gestión Administrativa… El clima del aula no entiende de ciclos, así que nada del contenido depende de un módulo concreto. Sección única:
 
-- 🤝 **Tutoría — Modo coop**: unidades de convivencia para las tutorías (11 unidades).
+- 🤝 **Tutoría — Modo coop**: unidades de convivencia para las tutorías (15 unidades).
 
 **Mundo narrativo:** la tienda de ROSA y DANI (encargada cascarrabia y dependiente metepata). Es deliberadamente neutro y universal: cualquier estudiante de FPB hace FCT en una empresa y entiende el mundo del trabajo.
 
@@ -70,11 +70,11 @@ planaseguir.txt              → Estado del proyecto y plan de continuidad (lée
 
 ---
 
-## 📚 Temario completo (11 unidades de tutoría)
+## 📚 Temario completo (15 unidades de tutoría)
 
 Filosofía: **unidades pequeñas** (índice + 2-4 puntos = fichas). Cada tema de convivencia es su propia unidad. **NO hay bloque de Aules** y **NO hay Sección de contenidos de módulos** (decisión del usuario: este repo es solo tutoría; los contenidos viven en el repo hermano `ActividadesFPBComercio`).
 
-> ✅ **Las 11 unidades están ya en formato ficha** (índice + puntos con ejercicios rellenables).
+> ✅ **Las 15 unidades están ya en formato ficha** (índice + puntos con ejercicios rellenables).
 
 ### 🤝 Unidades de tutoría: la clase que funciona
 
@@ -91,6 +91,10 @@ Filosofía: **unidades pequeñas** (índice + 2-4 puntos = fichas). Cada tema de
 | 9 | 🎁 Kudo Cards | `09-kudo-cards` | **Unidad única (guía + banco):** qué son y las 6 reglas de oro, la caja o el mural + 5 reglas del banco, cómo escribir un kudo (fórmula + plantillas), banco de +50 tarjetas listas en 8 categorías y herramienta digital de envío (mailto + copiar + imprimir) |
 | 10 | 🎙️ Tu sesión en 50 minutos | `10-tu-sesion-en-50-minutos` | Guión de tutoría (tema libre: dinámicas, música, baile, deporte…) con título, objetivo, intro para compañeros, paso a paso, material y conclusiones. En Aules o en papel |
 | 11 | 📆 Turnos del aula | `11-turnos-del-aula` | Lista de responsables diarios: plantilla para imprimir y firmar |
+| 12 | 🌐 Ciberconvivencia | `12-ciberconvivencia` | Chats y huella digital, cuando el chat se vira (haters, cadenas, extraños), retos/filtros/estafas y la pausa de 10 segundos |
+| 13 | 💚 Bienestar y estrés | `13-bienestar-y-estres` | Sueño y la regla de apagado, la comparación injusta del feed y pedir ayuda a tiempo (escalera de 5 peldaños, 024/112) |
+| 14 | 🧭 Mi futuro FPB | `14-mi-futuro-fpb` | Orientación: la brújula (gusta/se me da bien/valoro), los 6 caminos después del FPB y el plan con fecha (backwards + plan B) |
+| 15 | 🌈 Diversidad y respeto | `15-diversidad-y-respeto` | Cableados (TEA, TDAH, dislexia, ansiedad…), etiqueta vs hecho, adaptaciones (escaleras no ventajas) y la clase que incluye |
 
 
 ---
@@ -307,12 +311,13 @@ npm run docx      # DOCX por unidad → docx/ (en local; el CI los regenera solo
 
 ---
 
-## 📌 Plan de mejora en curso (detalle en `planaseguir.txt`)
+## 📌 Plan de mejora COMPLETADO (detalle histórico en `planaseguir.txt`)
 
-El proyecto sigue un plan de 4 fases aprobado por el usuario. **Fases 1 (CI) y 2 (impresión) COMPLETADAS.** Pendientes:
+El plan de 4 fases aprobado por el usuario **está íntegramente completado** (última actualización: las 15 unidades publicadas):
 
-- **Fase 3 — Unidad 12 🌐 Ciberconvivencia** (genérica, cualquier ciclo): índice + 3 fichas (*El grupo de 30*, *Cuando el chat se vira*, *Retos y estafas*) + 3 diagramas.
-- **Fase 4 — Unidades 13-15:** 13 💚 Bienestar y estrés · 14 🧭 Mi futuro FPB (sin duplicar "Con y sin graduado" del repo viejo; en clave orientación) · 15 🌈 Diversidad y respeto. Un commit por unidad.
-- **Cierre:** landing a "Las 15 unidades", pie de la unidad de turnos → nueva unidad de ciberconvivencia, temario de este AGENTS.md 11 → 15.
+- **Fases 1 (CI) y 2 (impresión):** completadas. ✅
+- **Fase 3 — Unidad 12 🌐 Ciberconvivencia:** completada (commit `2c94b83`). ✅
+- **Fase 4 — Unidades 13-15:** completadas — 13 💚 Bienestar y estrés (`bb06d71`), 14 🧭 Mi futuro FPB (`bcbfe59`), 15 🌈 Diversidad y respeto (`9f00b08`). Un commit por unidad. ✅
+- **Cierre:** landing "Las 15 unidades", pies enlazados unidad a unidad, temario de este AGENTS.md 11 → 15 y planaseguir.txt marcado. ✅
 
 Decisiones fijas: **sin PDF en CI** (solo DOCX automáticos), **sin correcciones de contenido** pendientes en las unidades nuevas, widgets/plan anual/emergencia descartados. El flujo técnico completo (diagramas Excalidraw paso a paso, paleta, puerto del canvas) está en `planaseguir.txt` §3.
