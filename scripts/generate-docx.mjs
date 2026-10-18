@@ -36,11 +36,79 @@ function rewriteLinks(content) {
   return content.replaceAll('](/TutoriaFPB/', '](https://sergarb1.github.io/TutoriaFPB/');
 }
 
+/**
+ * Convierte las imágenes de las fichas en markdown que Pandoc sabe incrustar
+ * en DOCX. El HTML crudo (<div class="ficha-img"><img …>) se DESCARTA en
+ * docx, y Word no admite SVG: se usa el PNG de respaldo con tamaño real en cm
+ * (tope 15 cm de ancho para que queba en A4 con márgenes).
+ */
+function embedImages(content) {
+  // 1) Bloque completo: <div class="ficha-img"> <img> <figcaption> </div>
+  content = content.replace(
+    /<div class="ficha-img">([\s\S]*?)<\/div>/g,
+    (_m, inner) => {
+      const img = inner.match(/<img\s[^>]*>/);
+      if (!img) return inner; // sin imagen: conserva lo que haya dentro
+      const caption = inner
+        .match(/<figcaption>([\s\S]*?)<\/figcaption>/)?.[1]
+        ?.trim();
+      return imgToMarkdown(img[0], caption);
+    },
+  );
+  // 2) <img> suelto con la ruta web (por si aparece fuera de ficha-img)
+  content = content.replace(
+    /<img\s[^>]*src="\/TutoriaFPB\/img\/[^"]*"[^>]*>/g,
+    (tag) => imgToMarkdown(tag, null),
+  );
+  // 3) Imagen ya en sintaxis markdown con ruta web (hoy no hay, por si acaso)
+  content = content.replace(
+    /!\[([^\]]*)\]\((\/TutoriaFPB\/img\/[^)\s]+)\)/g,
+    (_m, alt, src) => imageMarkdown(src, alt, null, null),
+  );
+  return content;
+}
+
+function imgToMarkdown(tag, caption) {
+  const src = tag.match(/src="([^"]+)"/)?.[1];
+  if (!src || !src.startsWith('/TutoriaFPB/img/')) return tag;
+  const alt = tag.match(/alt="([^"]*)"/)?.[1] ?? '';
+  const w = Number(tag.match(/width="(\d+)"/)?.[1]) || null;
+  const h = Number(tag.match(/height="(\d+)"/)?.[1]) || null;
+  return imageMarkdown(src, caption ?? alt, w, h);
+}
+
+function imageMarkdown(src, caption, wPx, hPx) {
+  // /TutoriaFPB/img/NN/xx.svg → public/img/NN/xx.png (ruta relativa al root)
+  let rel = src.replace(/^\//, '').replace(/^TutoriaFPB\//, 'public/');
+  if (/\.svg$/i.test(rel)) {
+    const png = rel.replace(/\.svg$/i, '.png');
+    if (fs.existsSync(path.join(root, png))) rel = png;
+  }
+  if (!fs.existsSync(path.join(root, rel))) {
+    return `![${caption ?? ''}](${src})`; // fallback: pandoc lo intentará
+  }
+  const esc = (caption ?? '').replaceAll('[', '\\[').replaceAll(']', '\\]');
+  const size = wPx && hPx ? `{${sizeAttr(wPx, hPx)}}` : '';
+  return `![${esc}](${rel})${size}`;
+}
+
+/** px de pantalla (96 dpi) → cm de Word, con tope de 15 cm de ancho. */
+function sizeAttr(wPx, hPx) {
+  let w = (wPx / 96) * 2.54;
+  let h = (hPx / 96) * 2.54;
+  if (w > 15) {
+    const k = 15 / w;
+    w *= k;
+    h *= k;
+  }
+  return `width=${w.toFixed(1)}cm height=${h.toFixed(1)}cm`;
+}
+
 function toSectionMarkdown(filePath) {
   const raw = fs.readFileSync(filePath, 'utf8');
   const base = path.basename(filePath, '.md');
   const title = getFrontTitle(raw, base);
-  const body = rewriteLinks(stripFrontmatter(raw));
+  const body = rewriteLinks(embedImages(stripFrontmatter(raw)));
   return `# ${title}\n\n${body}\n`;
 }
 
@@ -57,6 +125,7 @@ function runPandoc(md, outFile) {
         tmp,
         '--from', 'markdown+raw_html',
         '--to', 'docx',
+        '--resource-path', root.replaceAll('\\', '/'),
         '--toc',
         '--toc-depth=3',
         '--metadata', 'lang=es-ES',
