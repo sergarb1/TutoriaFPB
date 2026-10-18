@@ -145,9 +145,18 @@ description: 🤝 Fichas de aula de tutoría para FPB — para Comercio, Inform�
   <a href="/TutoriaFPB/13-bienestar-y-estres" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">14 · Orientación</span>
+  </div>
+  <a href="/TutoriaFPB/14-mi-futuro-fpb" class="title-link">🧭 Mi futuro FPB</a>
+  <p class="desc">La brújula (lo que te gusta, se te da bien, valoras), los 6 caminos después del FPB y el plan con fechas que se ejecuta.</p>
+  <a href="/TutoriaFPB/14-mi-futuro-fpb" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
-> ✅ **Las 13 unidades del Modo coop ya están publicadas.** El recorrido completo: confianza → empatía → equipo → líneas rojas → insulto → asertividad → conflicto → juegos → kudos → tu sesión → turnos → ciberconvivencia → bienestar.
+</div>
+
+> ✅ **Las 14 unidades del Modo coop ya están publicadas.** El recorrido completo: confianza → empatía → equipo → líneas rojas → insulto → asertividad → conflicto → juegos → kudos → tu sesión → turnos → ciberconvivencia → bienestar → futuro.
 
 ## 🧑‍🤝‍🧑 Los protagonistas
 

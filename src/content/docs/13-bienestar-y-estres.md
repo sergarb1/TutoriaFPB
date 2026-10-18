@@ -5,7 +5,7 @@ description: "Sueño, comparación y pedir ayuda a tiempo 💚"
 
 <p><small>Sueño, comparación y pedir ayuda a tiempo 💚</small></p>
 
-> 🗺️ **El mapa:** 🤝 Tutoría → Ciberconvivencia → **Bienestar y estrés** → Fin del recorrido
+> 🗺️ **El mapa:** 🤝 Tutoría → Ciberconvivencia → **Bienestar y estrés** → Mi futuro FPB → Fin del recorrido
 
 > 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/13-bienestar-y-estres) — índice + todas las fichas, con salto de página.
 
@@ -56,4 +56,4 @@ Al terminar, serás capaz de:
 
 **📍 Primer punto:** [01 · Descanso de verdad](/TutoriaFPB/13-bienestar-y-estres/01-descanso-de-verdad)
 
-**⏭️ Has terminado el recorrido de tutoría. 🎉 Vuelve cuando quieras a cualquier unidad — el clima del aula se cuida todo el curso, también cuando duermes mal y comparas de más.**
+**⏭️ Al acabar, continúa en [🧭 Mi futuro FPB](/TutoriaFPB/14-mi-futuro-fpb) — la brújula, los caminos y el plan con fecha.**

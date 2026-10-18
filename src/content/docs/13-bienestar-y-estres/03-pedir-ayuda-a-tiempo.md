@@ -276,4 +276,4 @@ La clase cuelga la cartulina **La trastienda de la clase** junto a la escalera d
 
 ---
 
-📚 [Volver al índice de Bienestar y estrés](/TutoriaFPB/13-bienestar-y-estres) · **Anterior:** [Presión y comparación](/TutoriaFPB/13-bienestar-y-estres/02-presion-y-comparacion) · **Siguiente:** 🎉 **Fin del recorrido de tutoría** — vuelve cuando quieras a cualquier unidad.
+📚 [Volver al índice de Bienestar y estrés](/TutoriaFPB/13-bienestar-y-estres) · **Anterior:** [Presión y comparación](/TutoriaFPB/13-bienestar-y-estres/02-presion-y-comparacion) · **Siguiente:** [Mi futuro FPB](/TutoriaFPB/14-mi-futuro-fpb)
