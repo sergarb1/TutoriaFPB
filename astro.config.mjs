@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // ============================================================
 // Tutoría FPB
-// Sección única: 🤝 Tutoría (Modo coop) — unidades 01-14
+// Sección única: 🤝 Tutoría (Modo coop) — unidades 01-15
 // Web genérica para cualquier FPB (Comercio, Informática,
 // Administrativo…). El mundo narrativo es la tienda de ROSA
 // y DANI, válida para todos los ciclos.
@@ -151,6 +151,16 @@ const tutoriaItems = [
       { slug: '14-mi-futuro-fpb/01-la-brujula', label: '1 · La brújula' },
       { slug: '14-mi-futuro-fpb/02-caminos-despues-de-fpb', label: '2 · Los caminos después del FPB' },
       { slug: '14-mi-futuro-fpb/03-tu-plan-con-fecha', label: '3 · 📅 Tu plan con fecha' },
+    ],
+  },
+  {
+    label: '15 · 🌈 Diversidad y respeto',
+    collapsed: true,
+    items: [
+      { slug: '15-diversidad-y-respeto', label: 'Índice' },
+      { slug: '15-diversidad-y-respeto/01-todas-las-mentes', label: '1 · Todas las mentes' },
+      { slug: '15-diversidad-y-respeto/02-respeto-sin-etiquetas', label: '2 · Respeto sin etiquetas' },
+      { slug: '15-diversidad-y-respeto/03-la-clase-que-incluye', label: '3 · 🌈 La clase que incluye' },
     ],
   },
 ];

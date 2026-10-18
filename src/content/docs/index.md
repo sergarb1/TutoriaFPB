@@ -154,9 +154,18 @@ description: 🤝 Fichas de aula de tutoría para FPB — para Comercio, Inform�
   <a href="/TutoriaFPB/14-mi-futuro-fpb" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">15 · Convivencia</span>
+  </div>
+  <a href="/TutoriaFPB/15-diversidad-y-respeto" class="title-link">🌈 Diversidad y respeto</a>
+  <p class="desc">Todas las mentes tienen su cableado, cero etiquetas, y una clase que da escaleras: tú eres la escalera que no se pide.</p>
+  <a href="/TutoriaFPB/15-diversidad-y-respeto" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
-> ✅ **Las 14 unidades del Modo coop ya están publicadas.** El recorrido completo: confianza → empatía → equipo → líneas rojas → insulto → asertividad → conflicto → juegos → kudos → tu sesión → turnos → ciberconvivencia → bienestar → futuro.
+</div>
+
+> ✅ **Las 15 unidades del Modo coop ya están publicadas.** El recorrido completo: confianza → empatía → equipo → líneas rojas → insulto → asertividad → conflicto → juegos → kudos → tu sesión → turnos → ciberconvivencia → bienestar → futuro → diversidad.
 
 ## 🧑‍🤝‍🧑 Los protagonistas
 

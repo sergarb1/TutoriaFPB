@@ -5,7 +5,7 @@ description: "La brújula, los caminos y el plan con fecha 🧭"
 
 <p><small>La brújula, los caminos y el plan con fecha 🧭</small></p>
 
-> 🗺️ **El mapa:** 🤝 Tutoría → Bienestar y estrés → **Mi futuro FPB** → Fin del recorrido
+> 🗺️ **El mapa:** 🤝 Tutoría → Bienestar y estrés → **Mi futuro FPB** → Diversidad y respeto → Fin del recorrido
 
 > 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/14-mi-futuro-fpb) — índice + todas las fichas, con salto de página.
 
@@ -56,4 +56,4 @@ Al terminar, serás capaz de:
 
 **📍 Primer punto:** [01 · La brújula](/TutoriaFPB/14-mi-futuro-fpb/01-la-brujula)
 
-**⏭️ Has terminado el recorrido de tutoría. 🎉 Vuelve cuando quieras a cualquier unidad — el clima del aula se cuida todo el curso, también pensando en el futuro.**
+**⏭️ Al acabar, continúa en [🌈 Diversidad y respeto](/TutoriaFPB/15-diversidad-y-respeto) — todas las mentes, cero etiquetas y una clase que incluye.**

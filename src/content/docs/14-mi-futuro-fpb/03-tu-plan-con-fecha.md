@@ -247,4 +247,4 @@ La clase monta el mercado de los futuros. DANI pone su puesto con un cartel enor
 
 ---
 
-📚 [Volver al índice de Mi futuro FPB](/TutoriaFPB/14-mi-futuro-fpb) · **Anterior:** [Los caminos después del FPB](/TutoriaFPB/14-mi-futuro-fpb/02-caminos-despues-de-fpb) · **Siguiente:** 🎉 **Fin del recorrido de tutoría** — vuelve cuando quieras a cualquier unidad.
+📚 [Volver al índice de Mi futuro FPB](/TutoriaFPB/14-mi-futuro-fpb) · **Anterior:** [Los caminos después del FPB](/TutoriaFPB/14-mi-futuro-fpb/02-caminos-despues-de-fpb) · **Siguiente:** [Diversidad y respeto](/TutoriaFPB/15-diversidad-y-respeto)
