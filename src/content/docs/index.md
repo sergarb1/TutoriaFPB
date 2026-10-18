@@ -136,9 +136,18 @@ description: 🤝 Fichas de aula de tutoría para FPB — para Comercio, Inform�
   <a href="/TutoriaFPB/12-ciberconvivencia" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">13 · Bienestar</span>
+  </div>
+  <a href="/TutoriaFPB/13-bienestar-y-estres" class="title-link">💚 Bienestar y estrés</a>
+  <p class="desc">Dormir de verdad, salir de la comparación injusta del feed y pedir ayuda a tiempo: la escalera de 5 peldaños, sin vergüenza.</p>
+  <a href="/TutoriaFPB/13-bienestar-y-estres" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
-> ✅ **Las 12 unidades del Modo coop ya están publicadas.** El recorrido completo: confianza → empatía → equipo → líneas rojas → insulto → asertividad → conflicto → juegos → kudos → tu sesión → turnos → ciberconvivencia.
+</div>
+
+> ✅ **Las 13 unidades del Modo coop ya están publicadas.** El recorrido completo: confianza → empatía → equipo → líneas rojas → insulto → asertividad → conflicto → juegos → kudos → tu sesión → turnos → ciberconvivencia → bienestar.
 
 ## 🧑‍🤝‍🧑 Los protagonistas
 

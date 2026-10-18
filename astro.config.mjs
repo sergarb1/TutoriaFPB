@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // ============================================================
 // Tutoría FPB
-// Sección única: 🤝 Tutoría (Modo coop) — unidades 01-12
+// Sección única: 🤝 Tutoría (Modo coop) — unidades 01-13
 // Web genérica para cualquier FPB (Comercio, Informática,
 // Administrativo…). El mundo narrativo es la tienda de ROSA
 // y DANI, válida para todos los ciclos.
@@ -131,6 +131,16 @@ const tutoriaItems = [
       { slug: '12-ciberconvivencia/01-chat-plaza-publica', label: '1 · El chat es plaza pública' },
       { slug: '12-ciberconvivencia/02-cuando-se-vira', label: '2 · Cuando el chat se vira' },
       { slug: '12-ciberconvivencia/03-juegos-y-retos', label: '3 · 🎮 Retos, filtros y estafas' },
+    ],
+  },
+  {
+    label: '13 · 💚 Bienestar y estrés',
+    collapsed: true,
+    items: [
+      { slug: '13-bienestar-y-estres', label: 'Índice' },
+      { slug: '13-bienestar-y-estres/01-descanso-de-verdad', label: '1 · Descanso de verdad' },
+      { slug: '13-bienestar-y-estres/02-presion-y-comparacion', label: '2 · Presión y comparación' },
+      { slug: '13-bienestar-y-estres/03-pedir-ayuda-a-tiempo', label: '3 · 🪜 Pedir ayuda a tiempo' },
     ],
   },
 ];

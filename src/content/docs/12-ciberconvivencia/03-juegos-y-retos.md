@@ -255,4 +255,4 @@ La clase firma el muro de veredictos. DANI pega su post-it **boca abajo** y dice
 
 ---
 
-📚 [Volver al índice de Ciberconvivencia](/TutoriaFPB/12-ciberconvivencia) · **Anterior:** [Cuando el chat se vira](/TutoriaFPB/12-ciberconvivencia/02-cuando-se-vira) · **Siguiente:** 🎉 **Fin del recorrido de tutoría** — vuelve cuando quieras a cualquier unidad.
+📚 [Volver al índice de Ciberconvivencia](/TutoriaFPB/12-ciberconvivencia) · **Anterior:** [Cuando el chat se vira](/TutoriaFPB/12-ciberconvivencia/02-cuando-se-vira) · **Siguiente:** [Bienestar y estrés](/TutoriaFPB/13-bienestar-y-estres)

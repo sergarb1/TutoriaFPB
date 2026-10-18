@@ -5,7 +5,7 @@ description: "Chats, haters, retos y estafas: la clase en pantalla 🌐"
 
 <p><small>Chats, haters, retos y estafas: la clase en pantalla 🌐</small></p>
 
-> 🗺️ **El mapa:** 🤝 Tutoría → Turnos del aula → **Ciberconvivencia** → Fin del recorrido
+> 🗺️ **El mapa:** 🤝 Tutoría → Turnos del aula → **Ciberconvivencia** → Bienestar y estrés → Fin del recorrido
 
 > 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/12-ciberconvivencia) — índice + todas las fichas, con salto de página.
 
@@ -56,4 +56,4 @@ Al terminar, serás capaz de:
 
 **📍 Primer punto:** [01 · El chat es plaza pública](/TutoriaFPB/12-ciberconvivencia/01-chat-plaza-publica)
 
-**⏭️ Has terminado el recorrido de tutoría. 🎉 Vuelve cuando quieras a cualquier unidad — el clima del aula se cuida todo el curso, también en el chat.**
+**⏭️ Al acabar, continúa en [💚 Bienestar y estrés](/TutoriaFPB/13-bienestar-y-estres) — sueño, comparación y pedir ayuda a tiempo.**
