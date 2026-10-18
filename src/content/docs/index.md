@@ -127,9 +127,18 @@ description: 🤝 Fichas de aula de tutoría para FPB — para Comercio, Inform�
   <a href="/TutoriaFPB/11-turnos-del-aula" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">12 · Ciberconvivencia</span>
+  </div>
+  <a href="/TutoriaFPB/12-ciberconvivencia" class="title-link">🌐 Ciberconvivencia</a>
+  <p class="desc">El grupo de 30, el chat que se vira y las 3 trampas del móvil: huella digital, avisar a tiempo y la pausa de 10 segundos.</p>
+  <a href="/TutoriaFPB/12-ciberconvivencia" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
-> ✅ **Las 11 unidades del Modo coop ya están publicadas.** El recorrido completo: confianza → empatía → equipo → líneas rojas → insulto → asertividad → conflicto → juegos → kudos → tu sesión → turnos.
+</div>
+
+> ✅ **Las 12 unidades del Modo coop ya están publicadas.** El recorrido completo: confianza → empatía → equipo → líneas rojas → insulto → asertividad → conflicto → juegos → kudos → tu sesión → turnos → ciberconvivencia.
 
 ## 🧑‍🤝‍🧑 Los protagonistas
 

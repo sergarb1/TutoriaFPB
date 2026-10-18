@@ -5,7 +5,7 @@ description: "Lista de responsables diarios: plantilla para imprimir y firmar �
 
 <p><small>Lista de responsables diarios: plantilla para imprimir y firmar 📆</small></p>
 
-> 🗺️ **El mapa:** 🤝 Tutoría → **Turnos del aula** → Fin del recorrido
+> 🗺️ **El mapa:** 🤝 Tutoría → **Turnos del aula** → Ciberconvivencia
 
 > 🖨️ **¿En papel?** [Imprimir unidad completa](/TutoriaFPB/imprimir/11-turnos-del-aula) — índice + todas las fichas, con salto de página.
 
@@ -52,4 +52,4 @@ Al terminar, serás capaz de:
 
 **📍 Primer punto:** [01 · Los 5 turnos del aula](/TutoriaFPB/11-turnos-del-aula/01-cinco-turnos)
 
-**⏭️ Has terminado el recorrido de tutoría. 🎉 Vuelve cuando quieras a cualquier unidad — el clima del aula se cuida todo el curso.**
+**⏭️ Al acabar la unidad, continúa en [🌐 Ciberconvivencia](/TutoriaFPB/12-ciberconvivencia).**
